@@ -1,4 +1,4 @@
-/* ===== RESET / BASE ===== */
+/* ===== RESET ===== */
 *,
 *::before,
 *::after {
@@ -17,9 +17,10 @@ body {
   background: #0f1115;
   color: #ffffff;
   line-height: 1.4;
+  padding-bottom: 80px;
 }
 
-/* ===== LAYOUT ===== */
+/* ===== SERVICE HEADER ===== */
 .service-header {
   background: #0c0f14;
   border-bottom: 1px solid #1f2430;
@@ -46,7 +47,7 @@ body {
   letter-spacing: 0.3px;
 }
 
-/* ===== MAIN CARD ===== */
+/* ===== PASSPORT CARD ===== */
 .passport {
   max-width: 480px;
   margin: 16px auto;
@@ -129,7 +130,6 @@ body {
 
 .progress-fill {
   height: 100%;
-  width: 0;
   background: linear-gradient(90deg, #ff7a18, #ffb347);
 }
 
@@ -140,16 +140,32 @@ body {
   text-align: center;
 }
 
-/* ===== MINI PROFILE ===== */
+/* ===== MINI PROFILE (ОДНА СТРОКА) ===== */
+.mini-profile {
+  display: flex;
+  gap: 8px;
+  background: #1f2430;
+  border-radius: 12px;
+  padding: 10px;
+  margin-bottom: 16px;
+}
+
 .mini-profile > div {
-  flex: 1;                 
+  flex: 1;
   text-align: center;
 }
 
 .mini-title {
+  display: block;
   font-size: 11px;
   color: #9aa0ad;
+}
+
+.mini-profile strong {
   display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 2px;
 }
 
 /* ===== SECTIONS ===== */
@@ -221,9 +237,3 @@ body {
   color: #ffb347;
   font-weight: 600;
 }
-
-/* ===== SAFE AREA ===== */
-body {
-  padding-bottom: 80px;
-}
-
