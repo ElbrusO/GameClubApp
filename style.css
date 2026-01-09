@@ -36,13 +36,13 @@ body {
 }
 
 .service-header__logo {
-  width: 32px;
-  height: 32px;
+  width: 44px;
+  height: 44px;
   object-fit: contain;
 }
 
 .service-header__title {
-  font-size: 16px;
+  font-size: 21px;
   font-weight: 600;
   letter-spacing: 0.3px;
 }
@@ -237,3 +237,4 @@ body {
   color: #ffb347;
   font-weight: 600;
 }
+
