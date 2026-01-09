@@ -141,15 +141,13 @@ body {
 }
 
 /* ===== MINI PROFILE ===== */
-.mini-profile {
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-  padding: 10px;
-  background: #1f2430;
-  border-radius: 12px;
-  margin-bottom: 16px;
+.mini-profile > div {
+  flex: 1;                 
   text-align: center;
+  display: flex;           
+  flex-direction: column;
+  justify-content: center;
+  gap: 4px;
 }
 
 .mini-title {
